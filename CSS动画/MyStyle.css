@@ -1,0 +1,25 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: darkolivegreen;
+    position:relative;
+    animation:anim 5s infinite alternate;
+    -webkit-animation: anim 5s infinite alternate;
+}
+
+@keyframes anim{
+    0%{background: red;left:0px;top:0px}
+    25%{background:goldenrod;left:200;top:0px}
+    50%{background:sandybrown;left:200px;top:200px}
+    75%{background:slateblue;left:0px;top:200px}
+    100%{background:palegreen;left:0px;top:0px}
+}
+
+@-webkit-keyframes anim {
+    0%{background: red;left:0px;top:0px}
+    25%{background:goldenrod;left:200;top:0px}
+    50%{background:sandybrown;left:200px;top:200px}
+    75%{background:slateblue;left:0px;top:200px}
+    100%{background:palegreen;left:0px;top:0px}
+        }
+
